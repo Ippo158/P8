@@ -1,0 +1,6 @@
+.cadre {
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6060 0%, #ff6060 100%);
+}

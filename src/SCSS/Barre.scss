@@ -1,0 +1,19 @@
+$mainred: #ff6060;
+
+.barre {
+  height: 52px;
+  background-color: $mainred;
+  border-radius: 5px;
+  padding: 0 20px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__p {
+    margin: 0;
+  }
+}
+
+.barre-container {
+  width: 68%;
+}

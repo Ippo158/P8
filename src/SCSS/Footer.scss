@@ -1,0 +1,22 @@
+$black: #000000;
+$white: #ffffff;
+
+.footer {
+  background-color: $black;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    padding-top: 66px;
+  }
+
+  p {
+    color: $white;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 29px;
+  }
+}

@@ -1,0 +1,20 @@
+.banniere__text {
+  color: #fff;
+  font-size: 48px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-cadre {
+  width: 1240px;
+  height: 829px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 0 auto;
+}

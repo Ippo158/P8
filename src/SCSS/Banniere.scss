@@ -1,0 +1,13 @@
+.banniere {
+    margin: 0 100px 43px 100px;
+    width: 86%;
+    height: 223px;
+
+  &__home {
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
