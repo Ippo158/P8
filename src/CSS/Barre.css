@@ -14,3 +14,6 @@
 .barre-container {
   width: 68%;
 }
+.barre-container img {
+  cursor: pointer;
+}

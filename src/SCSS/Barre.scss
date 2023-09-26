@@ -16,4 +16,8 @@ $mainred: #ff6060;
 
 .barre-container {
   width: 68%;
+
+  & img {
+    cursor: pointer;
+  }
 }
