@@ -2,7 +2,7 @@ import "../CSS/Barre.css";
 import icone from "../Icones/iconebarre.svg";
 import React, { useState } from "react";
 
-function Barre({ title, onClick }) {
+function Barre({ title, onClick, showImage = true }) {
   const [isRotated, setIsRotated] = useState(false);
 
   const handleIconClick = () => {
@@ -14,12 +14,14 @@ function Barre({ title, onClick }) {
     <div className="barre-container">
       <div className="barre">
         <p>{title}</p>
-        <img
-          src={icone}
-          alt="Icone barre"
-          onClick={handleIconClick}
-          className={isRotated ? "rotated" : ""}
-        />
+        {showImage && (
+          <img
+            src={icone}
+            alt="Icone barre"
+            onClick={handleIconClick}
+            className={isRotated ? "rotated" : ""}
+          />
+        )}
       </div>
     </div>
   );

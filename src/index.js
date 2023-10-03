@@ -16,15 +16,15 @@ root.render(
   <React.StrictMode>
     <Router>
       <div className="main-container">
-        <div>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Logement" element={<Logement />} />
-            <Route path="/A_propos" element={<A_propos />} />
-            <Route path="*" element={<Error />} />
-          </Routes>
-        </div>
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Logement/:id" element={<Logement />} />
+          <Route path="/A_propos" element={<A_propos />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+
         <Footer />
       </div>
     </Router>
