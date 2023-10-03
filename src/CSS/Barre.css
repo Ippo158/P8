@@ -16,4 +16,8 @@
 }
 .barre-container img {
   cursor: pointer;
+  transition: transform 0.3s;
+}
+.barre-container img.rotated {
+  transform: rotate(-180deg);
 }

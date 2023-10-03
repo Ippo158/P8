@@ -14,12 +14,10 @@
 .description__p {
   margin: 0;
 }
-
-.visible {
+.description.visible {
   opacity: 1;
   max-height: 200px;
 }
-
 .description__text {
   color: #ff6060;
   text-align: left;

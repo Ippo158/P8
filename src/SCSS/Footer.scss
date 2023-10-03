@@ -9,11 +9,11 @@ $white: #ffffff;
   justify-content: space-between;
   align-items: center;
 
-  img {
+  & img {
     padding-top: 66px;
   }
 
-  p {
+  & p {
     color: $white;
     font-size: 24px;
     margin: 0;

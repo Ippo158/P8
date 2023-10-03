@@ -8,5 +8,4 @@ function Description({ show, children }) {
   );
 }
 
-
 export default Description;

@@ -1,4 +1,3 @@
-// import React from "react";
 import "../CSS/Footer.css";
 import logofooter from "../Logo/logofooter.png";
 

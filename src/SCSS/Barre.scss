@@ -19,5 +19,10 @@ $mainred: #ff6060;
 
   & img {
     cursor: pointer;
+    transition: transform 0.3s;
+
+    &.rotated {
+      transform: rotate(-180deg);
+    }
   }
 }

@@ -9,15 +9,15 @@
 }
 
 .container-cadre {
-
-  width: 1240px;
-  height: 829px;
-  background-color: #F6F6F6;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 56px 50px 43px 50px;
+  overflow-y: auto;
+  height: 100%;
+  background-color: #f6f6f6;
   border-radius: 25px;
-  
-  margin: 0 auto;
-
+  margin: 0 100px 43px 100px;
 }
