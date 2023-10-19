@@ -9,22 +9,22 @@ import Footer from "./Components/Footer";
 import Error from "./Pages/Error";
 import Logement from "./Pages/Logement";
 import A_propos from "./Pages/A_propos";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <div className="main-container">
         <Header />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Logement/:id" element={<Logement />} />
           <Route path="/A_propos" element={<A_propos />} />
           <Route path="*" element={<Error />} />
         </Routes>
-
         <Footer />
       </div>
     </Router>

@@ -1,5 +1,5 @@
 import Banniere from "../Components/Banniere";
-import Barre from "../Components/Barre";
+import Barre from "../Components/BarreAbout";
 import "../CSS/About.css";
 import aboutImageUrl from "../Images/banniereimg2.png";
 import Description from "../Components/Description.jsx";

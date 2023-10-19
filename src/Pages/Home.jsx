@@ -2,7 +2,6 @@ import Banniere from "../Components/Banniere";
 import "../CSS/Home.css";
 import homeImageUrl from "../Images/banniereimg1.png";
 import Cadre from "../Components/Cadre";
-import logementsData from "../Data/logements.json";
 import { Link } from "react-router-dom";
 import logements from "../Data/logements.json";
 

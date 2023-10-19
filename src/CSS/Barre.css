@@ -1,11 +1,13 @@
 .barre {
   height: 52px;
   background-color: #ff6060;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0 20px 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  font-size: 18px;
 }
 .barre__p {
   margin: 0;

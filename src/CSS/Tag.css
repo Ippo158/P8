@@ -1,0 +1,21 @@
+.tag {
+  height: 25px;
+  background-color: #ff6060;
+  border-radius: 10px;
+  padding: 0 20px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+.tag__p {
+  margin: 0;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  gap: 10px;
+}
